@@ -1,0 +1,275 @@
+*{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-page {
+    background-image: url(../image/others/menu.jpg);
+    background-size: cover;
+}
+/*heading*/
+.top-heading {
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: orange;
+}
+/*sub menu*/
+.c {
+    
+}
+.c:hover {
+    color: black;
+    background-color: white;
+}
+.submenu {
+    display: grid;
+    grid-template-areas: ' myArea myArea myArea myArea myArea myArea myArea myArea myArea myArea myArea myArea';
+    row-gap: 10px;
+}
+/* grid - box */
+.grid {
+    margin-top: 45px;
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    column-gap:  30px;
+    padding: 10px;
+}
+.grid > .grid-box {
+    padding: 20px;
+    height: 5cm;
+   border: solid white 4px;
+}
+/*text area*/
+.text-item {
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-style: hidden;
+}
+/*button*/
+.buy {
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 4cm;
+    margin-top: -80px;
+    background-color: green;
+    color: white;
+}
+.buy:hover {
+    background-color: orangered;
+    color: white;
+
+}
+/* desert item list */
+.ice1 {
+    background-image: url(../image/Desert/kulfi.jpg);
+    background-size: 6cm;
+}
+.ice2 {
+    background-image: url(../image/Desert/ice.jpg);
+    background-size: 6cm;
+}
+.ice3 {
+    background-image: url(../image/Desert/cone.jpeg);
+    background-size: 5cm;
+}
+.ice4 {
+    background-image: url(../image/Desert/florida.jpeg);
+    background-size: 5cm;
+}
+.ice5 {
+    background-image: url(../image/Desert/chacobar.jpeg);
+    background-size: 5.5cm;
+}
+.ice6 {
+    background-image: url(../image/Desert/sorbet.jpg);
+    background-size: 5.3cm;
+}
+.ice7 {
+    background-image: url(../image/Desert/staberry.jpeg);
+    background-size: 5.4cm;
+}
+.ice8 {
+    background-image: url(../image/Desert/peanut.webp);
+    background-size: 4cm;
+}
+.ice9 {
+    background-image: url(../image/Desert/venilla.jpg);
+    background-size: 5cm;
+}
+.ice10 {
+    background-image: url(../image/Desert/cupice.jpg);
+    background-size: 5.5cm;
+}
+/*------------------------------drink item list-----------------------*/
+.drink1 {
+    background-image: url(../image/Drinks/1.jpg);
+    background-size: 6cm;
+}
+.drink2 {
+    background-image: url(../image/Drinks/2.jpg);
+    background-size: 6cm;
+
+}
+.drink3 {
+    background-image: url(../image/Drinks/3.jpg);
+    background-size: 6cm;
+}
+.drink4 {
+    background-image: url(../image/Drinks/4.jpeg);
+    background-size: 5cm;
+}
+.drink5 {
+    background-image: url(../image/Drinks/5.jpeg);
+    background-size: 5.5cm;
+}
+.drink6 {
+    background-image: url(../image/Drinks/6.jpeg);
+    background-size: 5.3cm;
+}
+.drink7 {
+    background-image: url(../image/Drinks/7.jpeg);
+    background-size: 5.4cm;
+}
+.drink8 {
+    background-image: url(../image/Drinks/8.jpeg);
+    background-size: 4cm;
+}
+.drink9 {
+    background-image: url(../image/Drinks/9.jpg);
+    background-size: 5cm;
+}
+.drink10 {
+    background-image: url(../image/Drinks/10.jpeg);
+    background-size: 5.5cm;
+}
+/*----------------------------non veg item list---------------------------*/
+.nv1 {
+    background-image: url(../image/nonveg/1.jpg);
+    background-size: 6cm;
+}
+.nv2 {
+    background-image: url(../image/nonveg/2.jpg);
+    background-size: 6cm;
+
+}
+.nv3 {
+    background-image: url(../image/nonveg/3.jpg);
+    background-size: 5cm;
+}
+.nv4 {
+    background-image: url(../image/nonveg/4.jpeg);
+    background-size: 5cm;
+}
+.nv5 {
+    background-image: url(../image/nonveg/5.jpg);
+    background-size: 5.5cm;
+}
+.nv6 {
+    background-image: url(../image/nonveg/6.jpg);
+    background-size: 5.3cm;
+}
+.nv7 {
+    background-image: url(../image/nonveg/7.jpeg);
+    background-size: 5.4cm;
+}
+.nv8 {
+    background-image: url(../image/nonveg/7.jpeg);
+    background-size: 4cm;
+}
+.nv9 {
+    background-image: url(../image/nonveg/9.jpeg);
+    background-size: 5cm;
+}
+.nv10 {
+    background-image: url(../image/nonveg/10.jpeg);
+    background-size: 5.5cm;
+}
+/*----------------------------veg item list---------------*/
+.vg1 {
+    background-image: url(../image/veg/v1.jpg);
+    background-size: 6cm;
+}
+.vg2 {
+    background-image: url(../image/veg/v2.jpg);
+    background-size: 6cm;
+
+}
+.vg3 {
+    background-image: url(../image/veg/v3.jpg);
+    background-size: 6cm;
+}
+.vg4 {
+    background-image: url(../image/veg/v4.jpeg);
+    background-size: 6cm;
+}
+.vg5 {
+    background-image: url(../image/veg/v5.webp);
+    background-size: 5.5cm;
+}
+.vg6 {
+    background-image: url(../image/veg/v6.jpeg);
+    background-size: 5.3cm;
+}
+.vg7 {
+    background-image: url(../image/veg/v7.jpeg);
+    background-size: 5.9cm;
+}
+.vg8 {
+    background-image: url(../image/veg/v8.JPG);
+    background-size: 6cm;
+}
+.vg9 {
+    background-image: url(../image/veg/v9.jpg);
+    background-size: 6cm;
+}
+.vg10 {
+    background-image: url(../image/veg/v10.jpg);
+    background-size: 5.5cm;
+}
+/*--------------------------soup item list--------------------------*/
+.sp1 {
+    background-image: url(../image/Soup/s1.jpeg);
+    background-size: 6cm;
+}
+.sp2 {
+    background-image: url(../image/Soup/s2.jpg);
+    background-size: 6cm;
+
+}
+.sp3 {
+    background-image: url(../image/Soup/s3.jpg);
+    background-size: 6cm;
+}
+.sp4 {
+    background-image: url(../image/Soup/s4.jpeg);
+    background-size: 6cm;
+}
+.sp5 {
+    background-image: url(../image/Soup/s5.jpeg);
+    background-size: 5.5cm;
+}
+.sp6 {
+    background-image: url(../image/Soup/s6.jpg);
+    background-size: 5.3cm;
+}
+.sp7 {
+    background-image: url(../image/Soup/s7.jpg);
+    background-size: 5.4cm;
+}
+.sp8 {
+    background-image: url(../image/Soup/s8.webp);
+    background-size: 6cm;
+}
+.sp9 {
+    background-image: url(../image/Soup/s9.jpg);
+    background-size: 6cm;
+}
+.sp10 {
+    background-image: url(../image/Soup/s10.jpeg);
+    background-size: 5.5cm;
+} 

@@ -1,0 +1,32 @@
+.conduct-page {
+    background-image: url(../image/others/menu.jpg);
+}
+.subbody {
+    height: 700px;
+    background-color: white;
+    opacity: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conduct {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.conduct:hover {
+    color: blue;
+}
+.grid {
+    margin-top: 45px;
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    column-gap:  70px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.grid > .part1,.part2,.part3 {
+    padding: 20px;
+    height: 5cm;
+    width: 8cm;
+}
